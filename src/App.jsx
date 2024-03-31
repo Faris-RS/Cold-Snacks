@@ -8,16 +8,17 @@ import {
 } from "react-router-dom";
 import Loader from "./components/Loading/Loader";
 import Search from "./components/Search/Search";
+import searchStore from "./store/SearchStore";
+import AppStore from "./store/AppStore";
 
 export default function App() {
-  const [isLoading, setIsLoading] = useState(true);
-  const [isSearchShown, setIsSearchShown] = useState(true)
+  const { isLoading, setIsLoading } = AppStore();
+  const { isSearchShown, setIsSearchShown } = searchStore();
 
   useEffect(() => {
     setIsLoading(false);
-    // setIsSearchShown(false)
   }, []);
-  
+
   return (
     <div className="bg-blue-50 min-h-screen">
       {isLoading && <Loader />}
