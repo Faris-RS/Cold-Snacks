@@ -1,0 +1,255 @@
+[
+  {
+    "id": 1,
+    "category": "Ice-cream",
+    "productName": "Vanilla Bean Ice Cream",
+    "productPrice": "$4.99",
+    "productImage": "https://www.backtoorganic.com/wp-content/uploads/2013/08/vanilla-bean-ice-cream-with-chocolate-shavings-846xAuto.jpg",
+    "description": "Indulge in the creamy goodness of our classic vanilla bean ice cream. Made with real vanilla beans for a rich flavor experience.",
+    "ingredients": ["Milk", "Cream", "Sugar", "Vanilla Beans"]
+  },
+  {
+    "id": 2,
+    "category": "Mojito",
+    "productName": "Classic Mojito",
+    "productPrice": "$7.49",
+    "productImage": "https://www.afarmgirlsdabbles.com/wp-content/uploads/2023/06/mojito-afarmgirlsdabbles-01s.jpg",
+    "description": "Enjoy the refreshing taste of our classic mojito. Made with fresh mint leaves, lime juice, sugar, and rum.",
+    "ingredients": [
+      "Fresh Mint Leaves",
+      "Lime Juice",
+      "Sugar",
+      "Rum",
+      "Club Soda"
+    ]
+  },
+  {
+    "id": 3,
+    "category": "Shakes",
+    "productName": "Chocolate Milkshake",
+    "productPrice": "$5.49",
+    "productImage": "https://thehomeintent.com/wp-content/uploads/2023/02/Chocolate-Milkshake-without-Ice-Cream-Healthy-Recipe-featured.jpg",
+    "description": "Satisfy your chocolate cravings with our rich and creamy chocolate milkshake. Made with premium chocolate ice cream and milk.",
+    "ingredients": [
+      "Chocolate Ice Cream",
+      "Milk",
+      "Whipped Cream",
+      "Chocolate Syrup"
+    ]
+  },
+  {
+    "id": 4,
+    "category": "Fruit Items",
+    "productName": "Fresh Fruit Salad",
+    "productPrice": "$6.99",
+    "productImage": "https://fitfoodiefinds.com/wp-content/uploads/2020/05/saladsq.jpg",
+    "description": "Delight in the freshness of our fruit salad, featuring a colorful assortment of seasonal fruits. Perfect for a light and refreshing snack.",
+    "ingredients": [
+      "Strawberries",
+      "Blueberries",
+      "Pineapple",
+      "Grapes",
+      "Kiwi",
+      "Mango"
+    ]
+  },
+  {
+    "id": 5,
+    "category": "Ice-cream",
+    "productName": "Strawberry Ice Cream",
+    "productPrice": "$5.99",
+    "productImage": "https://www.twopeasandtheirpod.com/wp-content/uploads/2011/06/strawberry-ice-cream2-500x375.jpg",
+    "description": "Treat yourself to the sweet taste of summer with our strawberry ice cream. Made with ripe strawberries for a burst of fruity flavor.",
+    "ingredients": ["Strawberries", "Cream", "Sugar"]
+  },
+  {
+    "id": 6,
+    "category": "Mojito",
+    "productName": "Watermelon Mojito",
+    "productPrice": "$8.29",
+    "productImage": "https://tier1fitnessandnutrition.com/wp-content/uploads/2023/07/raider8321_watermelon_mojito_white_marble_background_shot_by_Ni_67c3b761-788a-46f1-aa0b-6e3a86807f31.png",
+    "description": "Quench your thirst with our refreshing watermelon mojito. Made with fresh watermelon juice, mint leaves, lime juice, sugar, and rum.",
+    "ingredients": [
+      "Fresh Watermelon Juice",
+      "Mint Leaves",
+      "Lime Juice",
+      "Sugar",
+      "Rum",
+      "Club Soda"
+    ]
+  },
+  {
+    "id": 7,
+    "category": "Shakes",
+    "productName": "Vanilla Milkshake",
+    "productPrice": "$5.49",
+    "productImage": "https://bakingmischief.com/wp-content/uploads/2020/03/vanilla-milkshake-photo.jpg",
+    "description": "Indulge in the classic flavor of our vanilla milkshake. Made with creamy vanilla ice cream and milk, topped with whipped cream.",
+    "ingredients": [
+      "Vanilla Ice Cream",
+      "Milk",
+      "Whipped Cream",
+      "Vanilla Extract"
+    ]
+  },
+  {
+    "id": 8,
+    "category": "Fruit Items",
+    "productName": "Fruit Smoothie",
+    "productPrice": "$6.49",
+    "productImage": "https://lilluna.com/wp-content/uploads/2014/02/fruit-smoothie-resize-8.jpg",
+    "description": "Kickstart your day with our energizing fruit smoothie. Packed with a blend of fresh fruits and yogurt for a nutritious boost.",
+    "ingredients": ["Banana", "Strawberries", "Blueberries", "Yogurt", "Honey"]
+  },
+  {
+    "id": 9,
+    "category": "Ice-cream",
+    "productName": "Cookies and Cream Ice Cream",
+    "productPrice": "$6.49",
+    "productImage": "https://richanddelish.com/wp-content/uploads/2022/05/cookies-and-cream-ice-cream-1.jpg",
+    "description": "Experience the perfect combination of rich vanilla ice cream and chunks of chocolate cookies in every scoop of our cookies and cream ice cream.",
+    "ingredients": ["Vanilla Ice Cream", "Chocolate Cookies"]
+  },
+  {
+    "id": 10,
+    "category": "Mojito",
+    "productName": "Blueberry Mojito",
+    "productPrice": "$7.99",
+    "productImage": "https://thecrumbykitchen.com/wp-content/uploads/2019/07/Blueberry-Mojito-4.jpg",
+    "description": "Indulge in the fruity goodness of our blueberry mojito. Made with fresh blueberries, mint leaves, lime juice, sugar, and rum.",
+    "ingredients": [
+      "Fresh Blueberries",
+      "Mint Leaves",
+      "Lime Juice",
+      "Sugar",
+      "Rum",
+      "Club Soda"
+    ]
+  },
+  {
+    "id": 11,
+    "category": "Shakes",
+    "productName": "Strawberry Milkshake",
+    "productPrice": "$5.49",
+    "productImage": "https://www.oliviascuisine.com/wp-content/uploads/2021/06/strawberry-milkshake.jpg",
+    "description": "Savor the sweetness of our strawberry milkshake. Made with ripe strawberries and creamy vanilla ice cream for a delightful treat.",
+    "ingredients": [
+      "Strawberries",
+      "Vanilla Ice Cream",
+      "Milk",
+      "Whipped Cream"
+    ]
+  },
+  {
+    "id": 12,
+    "category": "Fruit Items",
+    "productName": "Mango Smoothie",
+    "productPrice": "$6.49",
+    "productImage": "https://cdn.loveandlemons.com/wp-content/uploads/2023/05/mango-smoothie.jpg",
+    "description": "Transport yourself to the tropics with our luscious mango smoothie. Made with ripe mangoes and yogurt for a tropical flavor explosion.",
+    "ingredients": ["Mango", "Yogurt", "Orange Juice", "Honey"]
+  },
+  {
+    "id": 13,
+    "category": "Ice-cream",
+    "productName": "Chocolate Chip Cookie Dough Ice Cream",
+    "productPrice": "$7.49",
+    "productImage": "https://handletheheat.com/wp-content/uploads/2020/06/Chocolate-Chip-Cookie-Dough-Ice-Cream-SQUARE.jpg",
+    "description": "Indulge in the ultimate comfort food with our chocolate chip cookie dough ice cream. Creamy vanilla ice cream loaded with chunks of chocolate chip cookie dough.",
+    "ingredients": ["Vanilla Ice Cream", "Chocolate Chip Cookie Dough"]
+  },
+  {
+    "id": 14,
+    "category": "Mojito",
+    "productName": "Passion Fruit Mojito",
+    "productPrice": "$8.49",
+    "productImage": "https://burrataandbubbles.com/wp-content/uploads/2023/02/passion-fruit-mojito-featured-image.jpg",
+    "description": "Experience a burst of tropical flavor with our passion fruit mojito. Made with fresh passion fruit, mint leaves, lime juice, sugar, and rum.",
+    "ingredients": [
+      "Fresh Passion Fruit",
+      "Mint Leaves",
+      "Lime Juice",
+      "Sugar",
+      "Rum",
+      "Club Soda"
+    ]
+  },
+  {
+    "id": 15,
+    "category": "Shakes",
+    "productName": "Oreo Milkshake",
+    "productPrice": "$6.99",
+    "productImage": "https://dancearoundthekitchen.com/wp-content/uploads/2021/10/DSC_8647-2.jpg",
+    "description": "Indulge your sweet tooth with our irresistible Oreo milkshake. Made with creamy vanilla ice cream and chunks of Oreo cookies blended to perfection.",
+    "ingredients": [
+      "Vanilla Ice Cream",
+      "Oreo Cookies",
+      "Milk",
+      "Whipped Cream"
+    ]
+  },
+  {
+    "id": 16,
+    "category": "Fruit Items",
+    "productName": "Mixed Berry Smoothie",
+    "productPrice": "$6.99",
+    "productImage": "https://cf-store.widencdn.net/mccormick/1/7/a/17aa8df4-51f8-4558-b122-e66c32a8b1a0.jpg?response-content-disposition=inline%3B%20filename%3D%22coconut_milk_mixed_berry_smoothie_800x800.jpg%22&response-content-type=image%2Fjpeg&Expires=1711912911&Signature=gOi6KaZ4fxlY90wHXNgaIojCr2sk1EeRw5FnsTRLWyBQSLsB4mfE8tfFE62j2qWFNfzRm-qLxNGXWvS8KCFYaw5p5S7eunool1c1pY-co7i1QOdF5ofoJYV40FhpW9PsGvEfhT7HqygmUufHsfTbJn8lKP7Onx2Wxylxf1QU5O2EW2gA0n1q0qdUKdKwL2VwleSkU5EREpfwDef6mLtKMdRKqc-AsO~WzzWhhOovSn29MnrZgtHYzWQhDW144CrbY2b6gIUJVInxVSzPQXlFqZpy5v8HB62OcNqmPav53h-KWSUsYpPBGSSs2syuqMSFxBBDBc8Wdo8kb66VGQk60A__&Key-Pair-Id=APKAJD5XONOBVWWOA65A",
+    "description": "Fuel your day with our antioxidant-rich mixed berry smoothie. Bursting with the flavors of strawberries, blueberries, raspberries, and blackberries.",
+    "ingredients": [
+      "Strawberries",
+      "Blueberries",
+      "Raspberries",
+      "Blackberries",
+      "Yogurt",
+      "Honey"
+    ]
+  },
+  {
+    "id": 17,
+    "category": "Ice-cream",
+    "productName": "Mint Chocolate Chip Ice Cream",
+    "productPrice": "$6.99",
+    "productImage": "https://www.browneyedbaker.com/wp-content/uploads/2020/06/Mint-chocolate-chip-ice-cream-14-square-500x500.jpg",
+    "description": "Cool off with the refreshing taste of our mint chocolate chip ice cream. Creamy mint ice cream loaded with chocolate chips for a delightful crunch.",
+    "ingredients": ["Mint Ice Cream", "Chocolate Chips"]
+  },
+  {
+    "id": 18,
+    "category": "Mojito",
+    "productName": "Raspberry Mojito",
+    "productPrice": "$8.29",
+    "productImage": "https://www.acouplecooks.com/wp-content/uploads/2021/04/Raspberry-Mojito-002.jpg",
+    "description": "Treat your taste buds to the sweet and tangy flavor of our raspberry mojito. Made with fresh raspberries, mint leaves, lime juice, sugar, and rum.",
+    "ingredients": [
+      "Fresh Raspberries",
+      "Mint Leaves",
+      "Lime Juice",
+      "Sugar",
+      "Rum",
+      "Club Soda"
+    ]
+  },
+  {
+    "id": 19,
+    "category": "Shakes",
+    "productName": "Peanut Butter Milkshake",
+    "productPrice": "$7.49",
+    "productImage": "https://thetoastedpinenut.com/wp-content/uploads/2021/09/peanut-butter-milkshake-5.jpg",
+    "description": "Indulge in the creamy goodness of our peanut butter milkshake. Made with smooth peanut butter and creamy vanilla ice cream for a rich and satisfying treat.",
+    "ingredients": [
+      "Peanut Butter",
+      "Vanilla Ice Cream",
+      "Milk",
+      "Whipped Cream"
+    ]
+  },
+  {
+    "id": 20,
+    "category": "Fruit Items",
+    "productName": "Pineapple Smoothie",
+    "productPrice": "$6.49",
+    "productImage": "https://www.theendlessmeal.com/wp-content/uploads/2023/04/pineapple-smoothie-3.jpg",
+    "description": "Transport yourself to a tropical paradise with our refreshing pineapple smoothie. Made with fresh pineapple and coconut milk for a taste of the islands.",
+    "ingredients": ["Pineapple", "Coconut Milk", "Banana", "Honey"]
+  }
+]
