@@ -33,7 +33,7 @@ export default function Homepage() {
       <Header />
       {/* <Hero /> */}
       <Carousel />
-      <div className="flex w-full justify-start md:px-40 py-5 overflow-x-auto">
+      <div className="flex w-full justify-start md:px-40 py-5 overflow-x-auto gap-2">
         {categories.map((cat) => {
           return (
             <Chip
@@ -53,6 +53,7 @@ export default function Homepage() {
               productImage={product.productImage}
               productName={product.productName}
               productPrice={product.productPrice}
+              onCategoryClick={handleChipClick}
               key={product.id}
             />
           );

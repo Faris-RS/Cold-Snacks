@@ -5,18 +5,29 @@ export default function ProductCard({
   productName,
   productPrice,
   productImage,
+  onCategoryClick,
 }) {
+  
+  const handleCategoryClick = () => {
+    if (onCategoryClick) {
+      onCategoryClick(category);
+    }
+  };
+
   return (
     <div className="flex justify-center items-center hover:shadow-lg duration-200 ease-in-out border-4 hover:border-green-500">
       <div
         className="flex flex-col justify-between w-72 sm:w-96 h-96 bg-white bg-center text-gray-800 shadow-md overflow-hidden cursor-pointer"
         style={{
           backgroundImage: `url(${productImage})`,
-          backgroundRepeat: 'no-repeat',
-          backgroundSize: 'cover'
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
         }}
       >
-        <div className="flex justify-between items-center ml-4 pr-8">
+        <div
+          className="flex justify-between items-center ml-4 pr-8"
+          onClick={handleCategoryClick}
+        >
           <div className="bg-blue-400 hover:bg-blue-600 duration-300 ease-in-out text-white bg-opacity-95 shadow px-2 py-1 flex items-center font-bold text-xs rounded truncate">
             {category || "Category"}
           </div>
