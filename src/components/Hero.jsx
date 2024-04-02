@@ -2,51 +2,54 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <section>
-      <div className="bg-blue-100 py-20">
-        <div className="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24">
-          <div className="flex flex-col w-full lg:w-1/3 justify-center items-start p-8">
-            <h1 className="text-3xl md:text-5xl p-2 text-green-400 tracking-loose">
-              TechFest
-            </h1>
-            <h2 className="text-3xl md:text-5xl leading-relaxed md:leading-snug mb-2">
-              Space : The Timeless Infinity
-            </h2>
-            <p className="text-sm md:text-base mb-4">
-              Explore your favourite events and register now to showcase your
-              talent and win exciting prizes.
-            </p>
-            <a
-              href="#"
-              className="bg-transparent hover:bg-green-400 text-green-400 hover:text-black duration-300 ease-in-out rounded shadow hover:shadow-lg py-2 px-4 border border-green-400 hover:border-transparent"
-            >
-              Explore Now
-            </a>
-          </div>
-          <div className="p-8 mt-12 mb-6 md:mb-0 md:mt-0 ml-0 md:ml-12 lg:w-2/3  justify-center">
-            <div className="h-48 flex flex-wrap content-center">
-              <div>
-                <img
-                  className="mt-28 hidden xl:block"
-                  src="https://user-images.githubusercontent.com/54521023/116969935-c13d5b00-acd4-11eb-82b1-5ad2ff10fb76.png"
-                />
-              </div>
-              <div>
-                <img
-                  className="inline-block mt-24 md:mt-0 p-8 md:p-0"
-                  src="https://user-images.githubusercontent.com/54521023/116969931-bedb0100-acd4-11eb-99a9-ff5e0ee9f31f.png"
-                />
-              </div>
-              <div>
-                <img
-                  className="mt-28 hidden lg:block"
-                  src="https://user-images.githubusercontent.com/54521023/116969939-c1d5f180-acd4-11eb-8ad4-9ab9143bdb50.png"
-                />
-              </div>
+    <div className="bg-blue-400">
+      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+        <div className="max-w-xl sm:mx-auto lg:max-w-2xl">
+          <div className="flex flex-col mb-16 sm:text-center sm:mb-0">
+            <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+              <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-white sm:text-4xl md:mx-auto">
+                <span className="relative inline-block">
+                  <svg
+                    viewBox="0 0 52 24"
+                    fill="currentColor"
+                    className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
+                  >
+                    <defs>
+                      <pattern
+                        id="700c93bf-0068-4e32-aafe-ef5b6a647708"
+                        x="0"
+                        y="0"
+                        width=".135"
+                        height=".30"
+                      >
+                        <circle cx="1" cy="1" r=".7" />
+                      </pattern>
+                    </defs>
+                    <rect
+                      fill="url(#700c93bf-0068-4e32-aafe-ef5b6a647708)"
+                      width="52"
+                      height="24"
+                    />
+                  </svg>
+                  <span className="relative">The</span>
+                </span>{" "}
+                quick, brown fox jumps over a lazy dog
+              </h2>
+              <p className="text-base text-indigo-100 md:text-lg">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque rem aperiam, eaque ipsa quae.
+              </p>
+            </div>
+            <div>
+              <a
+                className="inline-flex items-center justify-center h-12 px-6 font-semibold tracking-wide text-white transition duration-200 rounded shadow-md hover:text-blue-900 bg-blue-500 hover:bg-blue-300 cursor-pointer focus:shadow-outline focus:outline-none"
+              >
+                Get started
+              </a>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 }

@@ -10,6 +10,7 @@ import Loader from "./components/Loading/Loader";
 import Search from "./components/Search/Search";
 import searchStore from "./store/SearchStore";
 import AppStore from "./store/AppStore";
+import BrowsePage from "./pages/BrowsePage";
 
 export default function App() {
   const { isLoading, setIsLoading } = AppStore();
@@ -27,7 +28,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Navigate to="/home" />} />
           <Route path="/home" element={<Homepage />} />
-          <Route path="/browse" element={<Homepage />} />
+          <Route path="/browse" element={<BrowsePage />} />
           <Route path="/profile" element={<Homepage />} />
         </Routes>
       </Router>
