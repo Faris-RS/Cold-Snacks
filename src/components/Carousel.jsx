@@ -39,8 +39,12 @@ export default function Carousel() {
       <Slider {...settings}>
         {carouselImages.map((obj) => {
           return (
-            <div className="w-full h-full">
-              <img src={obj.image} alt={obj.legend} className="h-[400px] md:h-[500px] lg:h-[600px] 2xl:h-[700px] w-full object-cover"/>
+            <div className="w-full h-full" key={obj.legend}>
+              <img
+                src={obj.image}
+                alt={obj.legend}
+                className="h-[400px] md:h-[500px] lg:h-[600px] 2xl:h-[700px] w-full object-cover"
+              />
             </div>
           );
         })}
