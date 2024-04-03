@@ -14,7 +14,7 @@ import BrowsePage from "./pages/BrowsePage";
 
 export default function App() {
   const { isLoading, setIsLoading } = AppStore();
-  const { isSearchShown, setIsSearchShown } = searchStore();
+  const { isSearchShown } = searchStore();
 
   useEffect(() => {
     setIsLoading(false);
