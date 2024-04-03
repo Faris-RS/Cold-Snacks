@@ -31,8 +31,8 @@ export default function BrowsePage() {
     <>
       <Header />
       <Hero />
-      <div className="w-full md:px-40 py-5">
-        <span className="text-xl uppercase mt-5 font-bold">
+      <div className="w-full md:px-40 pt-5">
+        <span className="text-2xl uppercase mt-5 font-bold text-blue-900">
           Filter through Categories
         </span>
         <div className="flex w-full justify-start py-5 overflow-x-auto gap-2">
@@ -48,19 +48,24 @@ export default function BrowsePage() {
           })}
         </div>
       </div>
-      <div className="lg:px-20 px-10 mb-10 grid gap-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 overflow-y-auto h-[75%]">
-        {filteredProducts.map((product) => {
-          return (
-            <ProductCard
-              category={product.category}
-              productImage={product.productImage}
-              productName={product.productName}
-              productPrice={product.productPrice}
-              onCategoryClick={handleChipClick}
-              key={product.id}
-            />
-          );
-        })}
+      <div className="w-full md:px-40 py-5" id="product-list">
+        <span className="text-2xl uppercase mt-5 font-bold text-blue-900">
+          Our Products
+        </span>
+        <div className="py-5 mb-10 grid gap-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 overflow-y-auto h-[75%]">
+          {filteredProducts.map((product) => {
+            return (
+              <ProductCard
+                category={product.category}
+                productImage={product.productImage}
+                productName={product.productName}
+                productPrice={product.productPrice}
+                onCategoryClick={handleChipClick}
+                key={product.id}
+              />
+            );
+          })}
+        </div>
       </div>
     </>
   );

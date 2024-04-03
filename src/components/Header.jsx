@@ -16,7 +16,7 @@ export default function Header() {
   };
 
   return (
-    <nav className="bg-blue-50 w-100 px-8 md:px-auto">
+    <nav className="bg-blue-50 w-100 px-8 md:px-auto" id="header">
       <div className="md:h-16 h-28 mx-auto md:px-4 container flex items-center justify-between flex-wrap md:flex-nowrap">
         <div className="md:order-1">
           <img src={logo} alt="Logo" className="h-10 w-10" />

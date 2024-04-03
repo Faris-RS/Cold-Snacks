@@ -1,6 +1,13 @@
 import React from "react";
 
 export default function Hero() {
+  const handleBrowseClick = () => {
+    const productListElement = document.getElementById("product-list");
+    if (productListElement) {
+      productListElement.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div className="bg-blue-400">
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -31,21 +38,21 @@ export default function Hero() {
                       height="24"
                     />
                   </svg>
-                  <span className="relative">The</span>
-                </span>{" "}
-                quick, brown fox jumps over a lazy dog
+                  <span className="relative">Crave the brain freeze</span>
+                </span>
               </h2>
               <p className="text-base text-indigo-100 md:text-lg">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque rem aperiam, eaque ipsa quae.
+                Browse through our frigid collection to cool the heat of
+                desserts.
               </p>
             </div>
             <div>
-              <a
-                className="inline-flex items-center justify-center h-12 px-6 font-semibold tracking-wide text-white transition duration-200 rounded shadow-md hover:text-blue-900 bg-blue-500 hover:bg-blue-300 cursor-pointer focus:shadow-outline focus:outline-none"
+              <button
+                onClick={handleBrowseClick}
+                className="inline-flex items-center justify-center h-12 px-6 font-semibold tracking-wide text-white transition duration-200 rounded shadow-md hover:text-blue-900 bg-blue-500 hover:bg-blue-300 focus:shadow-outline focus:outline-none"
               >
-                Get started
-              </a>
+                Browse
+              </button>
             </div>
           </div>
         </div>
